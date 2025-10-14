@@ -13,8 +13,8 @@
 - 没有操作系统/资源紧张的 MCU → 用 **Qt for MCUs**（或 **LVGL/TouchGFX** 等替代）。
 
 ### 目录结构
-- `desktop/`：桌面端（Windows/macOS/Linux）相关内容与示例
-- `mobile/`：移动端（Android/iOS）相关内容与示例
-- `embedded/`：嵌入式端（嵌入式 Linux、Qt for MCUs、LVGL/TouchGFX）内容
-  - `embedded/qtmcu/`：Qt for MCUs（QUL）入门与平台移植
-- `others/`：其他（WASM、脚本、共享文档等）
+- `Desktop/`：桌面端（Windows/macOS/Linux）相关内容与示例
+- `Mobile/`：移动端（Android/iOS）相关内容与示例
+- `Embedded/`：嵌入式端（嵌入式 Linux、Qt for MCUs、LVGL/TouchGFX）内容
+- `Qt-Mcu/`：Qt for MCUs（QUL）入门与平台移植
+- `Others/`：其他（WASM、脚本、共享文档等）
