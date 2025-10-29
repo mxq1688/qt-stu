@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Qt Android Demo</string>
+    <string name="app_description">Qt开发的Android应用示例</string>
+    <string name="ministro_not_found_msg">找不到Ministro服务。\n\n应用无法启动。</string>
+    <string name="ministro_needed_msg">此应用需要Ministro服务。您想安装它吗？</string>
+</resources>

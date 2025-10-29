@@ -1,0 +1,15 @@
+org.qtproject.example.qtandroiddemo-core-1.13.1-0 /Users/meng/.gradle/caches/transforms-3/1889803c1caf7a44934ab227839ed332/transformed/core-1.13.1/res
+org.qtproject.example.qtandroiddemo-core-runtime-2.2.0-1 /Users/meng/.gradle/caches/transforms-3/2b403e01a06595b8444409d73aa3796c/transformed/core-runtime-2.2.0/res
+org.qtproject.example.qtandroiddemo-annotation-experimental-1.4.0-2 /Users/meng/.gradle/caches/transforms-3/73976669f2bc37dc7a9154a5a6579b1d/transformed/annotation-experimental-1.4.0/res
+org.qtproject.example.qtandroiddemo-profileinstaller-1.3.0-3 /Users/meng/.gradle/caches/transforms-3/a5abd7c9360207573f0b21d185fdfe02/transformed/profileinstaller-1.3.0/res
+org.qtproject.example.qtandroiddemo-lifecycle-runtime-2.6.2-4 /Users/meng/.gradle/caches/transforms-3/d0a909cbef776f416f16991abbd941c0/transformed/lifecycle-runtime-2.6.2/res
+org.qtproject.example.qtandroiddemo-startup-runtime-1.1.1-5 /Users/meng/.gradle/caches/transforms-3/df356c7a39e7ed5dfb4999ea8f66705f/transformed/startup-runtime-1.1.1/res
+org.qtproject.example.qtandroiddemo-java-6 /Users/meng/Qt/6.7.3/android_arm64_v8a/src/android/java/res
+org.qtproject.example.qtandroiddemo-pngs-7 /Users/meng/stu/qt-stu/Mobile/android-demo/android-build/build/generated/res/pngs/debug
+org.qtproject.example.qtandroiddemo-resValues-8 /Users/meng/stu/qt-stu/Mobile/android-demo/android-build/build/generated/res/resValues/debug
+org.qtproject.example.qtandroiddemo-rs-9 /Users/meng/stu/qt-stu/Mobile/android-demo/android-build/build/generated/res/rs/debug
+org.qtproject.example.qtandroiddemo-mergeDebugResources-10 /Users/meng/stu/qt-stu/Mobile/android-demo/android-build/build/intermediates/incremental/debug/mergeDebugResources/merged.dir
+org.qtproject.example.qtandroiddemo-mergeDebugResources-11 /Users/meng/stu/qt-stu/Mobile/android-demo/android-build/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir
+org.qtproject.example.qtandroiddemo-merged_res-12 /Users/meng/stu/qt-stu/Mobile/android-demo/android-build/build/intermediates/merged_res/debug
+org.qtproject.example.qtandroiddemo-android-build-13 /Users/meng/stu/qt-stu/Mobile/android-demo/android-build/res
+org.qtproject.example.qtandroiddemo-debug-14 /Users/meng/stu/qt-stu/Mobile/android-demo/android-build/src/debug/res

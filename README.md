@@ -18,3 +18,9 @@
 - `Embedded/`：嵌入式端（嵌入式 Linux、Qt for MCUs、LVGL/TouchGFX）内容
 - `Qt-Mcu/`：Qt for MCUs（QUL）入门与平台移植
 - `Others/`：其他（WASM、脚本、共享文档等）
+
+### 示例工程
+- Android 最小示例：`Mobile/android-demo/`（Qt Quick + CMake，可直接用 Qt Creator Android Kit 打开）
+
+### 其他语言QT库
+- LanguageBindings

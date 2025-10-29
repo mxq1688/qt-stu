@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<manifest package="org.qtproject.example.qtandroiddemo" 
+          xmlns:android="http://schemas.android.com/apk/res/android" 
+          android:versionName="1.0" 
+          android:versionCode="1" 
+          android:installLocation="auto">
+    
+    <!-- Android SDK最低版本 -->
+    <uses-sdk android:minSdkVersion="28" android:targetSdkVersion="33"/>
+    
+    <!-- 权限声明 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    
+    <!-- 应用程序配置 -->
+    <application android:hardwareAccelerated="true" 
+                 android:name="org.qtproject.qt.android.bindings.QtApplication" 
+                 android:label="Qt Android Demo"
+                 android:icon="@drawable/icon"
+                 android:theme="@android:style/Theme.Material.Light.NoActionBar"
+                 android:allowBackup="true"
+                 android:fullBackupContent="false">
+        
+        <!-- 主Activity -->
+        <activity android:configChanges="orientation|uiMode|screenLayout|screenSize|smallestScreenSize|layoutDirection|locale|fontScale|keyboard|keyboardHidden|navigation|mcc|mnc|density"
+                  android:name="org.qtproject.qt.android.bindings.QtActivity"
+                  android:label="Qt Android Demo"
+                  android:screenOrientation="unspecified"
+                  android:launchMode="singleTop"
+                  android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            
+            <!-- Qt相关的metadata -->
+            <meta-data android:name="android.app.lib_name" android:value="QtAndroidDemo"/>
+            <meta-data android:name="android.app.qt_sources_resource_id" android:resource="@array/qt_sources"/>
+            <meta-data android:name="android.app.repository" android:value="default"/>
+            <meta-data android:name="android.app.qt_libs_resource_id" android:resource="@array/qt_libs"/>
+            <meta-data android:name="android.app.bundled_libs_resource_id" android:resource="@array/bundled_libs"/>
+            
+            <!-- Qt主题 -->
+            <meta-data android:name="android.app.extract_android_style" android:value="minimal"/>
+            
+            <!-- 启动画面 -->
+            <meta-data android:name="android.app.splash_screen_drawable" android:resource="@drawable/logo"/>
+            <meta-data android:name="android.app.splash_screen_sticky" android:value="false"/>
+        </activity>
+    </application>
+</manifest>

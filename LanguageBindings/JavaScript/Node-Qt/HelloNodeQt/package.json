@@ -1,0 +1,13 @@
+{
+  "name": "hello-node-qt",
+  "version": "1.0.0",
+  "description": "Node.js Qt Desktop App Demo",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "install-deps": "npm install @nodegui/nodegui"
+  },
+  "dependencies": {
+    "@nodegui/nodegui": "^0.58.0"
+  }
+}

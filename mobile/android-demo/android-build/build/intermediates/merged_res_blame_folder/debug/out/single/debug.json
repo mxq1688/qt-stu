@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "org.qtproject.example.qtandroiddemo-merged_res-12:/xml_qtprovider_paths.xml.flat",
+        "source": "org.qtproject.example.qtandroiddemo-android-build-13:/xml/qtprovider_paths.xml"
+    },
+    {
+        "merged": "org.qtproject.example.qtandroiddemo-merged_res-12:/drawable_icon.xml.flat",
+        "source": "org.qtproject.example.qtandroiddemo-android-build-13:/drawable/icon.xml"
+    },
+    {
+        "merged": "org.qtproject.example.qtandroiddemo-merged_res-12:/drawable_logo.xml.flat",
+        "source": "org.qtproject.example.qtandroiddemo-android-build-13:/drawable/logo.xml"
+    }
+]

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <array name="qt_sources">
+        <item>https://download.qt.io/ministro/android/qt6/qt-6.10</item>
+    </array>
+    
+    <!-- Qt库 -->
+    <array name="qt_libs">
+        <item>Qt6Core</item>
+        <item>Qt6Gui</item>
+        <item>Qt6Quick</item>
+        <item>Qt6Qml</item>
+        <item>Qt6QmlModels</item>
+        <item>Qt6QmlWorkerScript</item>
+        <item>Qt6QuickControls2</item>
+        <item>Qt6Network</item>
+        <item>Qt6OpenGL</item>
+        <item>Qt6Widgets</item>
+        <item>Qt6QmlMeta</item>
+    </array>
+    
+    <!-- 捆绑库 -->
+    <array name="bundled_libs">
+        <!-- 这里可以添加第三方库 -->
+    </array>
+    
+    <!-- 加载库的顺序 -->
+    <array name="load_local_libs">
+        <item>QtAndroidDemo</item>
+    </array>
+    
+    <!-- Qt库加载配置 -->
+    <string name="use_local_qt_libs">1</string>
+    <string name="bundle_local_qt_libs">1</string>
+</resources>

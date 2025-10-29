@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main_simple.qml</file>
+        <file>Card.qml</file>
+        <file>InfoRow.qml</file>
+        <file>PermissionRow.qml</file>
+    </qresource>
+</RCC>
